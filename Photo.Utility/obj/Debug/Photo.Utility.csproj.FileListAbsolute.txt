@@ -1,0 +1,15 @@
+H:\Creyeto\Cartoonkart\Phtobook.com\Photo.Utility\obj\Debug\Photo.Utility.csprojResolveAssemblyReference.cache
+H:\Creyeto\Cartoonkart\Phtobook.com\Photo.Presentation.Website\bin\Photo.Utility.dll
+H:\Creyeto\Cartoonkart\Phtobook.com\Photo.Presentation.Website\bin\Photo.Utility.pdb
+H:\Creyeto\Cartoonkart\Phtobook.com\Photo.Utility\obj\Debug\Photo.Utility.dll
+H:\Creyeto\Cartoonkart\Phtobook.com\Photo.Utility\obj\Debug\Photo.Utility.pdb
+D:\vini-personal-files\CartookKart\Source-20170616T182104Z-001\Source\Phtobook.com\Phtobook.com\Photo.Presentation.Website\bin\Photo.Utility.dll
+D:\vini-personal-files\CartookKart\Source-20170616T182104Z-001\Source\Phtobook.com\Phtobook.com\Photo.Presentation.Website\bin\Photo.Utility.pdb
+D:\vini-personal-files\CartookKart\Source-20170616T182104Z-001\Source\Phtobook.com\Phtobook.com\Photo.Utility\obj\Debug\Photo.Utility.csprojResolveAssemblyReference.cache
+D:\vini-personal-files\CartookKart\Source-20170616T182104Z-001\Source\Phtobook.com\Phtobook.com\Photo.Utility\obj\Debug\Photo.Utility.dll
+D:\vini-personal-files\CartookKart\Source-20170616T182104Z-001\Source\Phtobook.com\Phtobook.com\Photo.Utility\obj\Debug\Photo.Utility.pdb
+H:\Creyeto\Phtobook.comV1\Phtobook.com\Phtobook.com\Photo.Presentation.Website\bin\Photo.Utility.dll
+H:\Creyeto\Phtobook.comV1\Phtobook.com\Phtobook.com\Photo.Presentation.Website\bin\Photo.Utility.pdb
+H:\Creyeto\Phtobook.comV1\Phtobook.com\Phtobook.com\Photo.Utility\obj\Debug\Photo.Utility.csprojResolveAssemblyReference.cache
+H:\Creyeto\Phtobook.comV1\Phtobook.com\Phtobook.com\Photo.Utility\obj\Debug\Photo.Utility.dll
+H:\Creyeto\Phtobook.comV1\Phtobook.com\Phtobook.com\Photo.Utility\obj\Debug\Photo.Utility.pdb

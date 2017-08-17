@@ -1,0 +1,303 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="BookSessionMenuText" xml:space="preserve">
+    <value>Book session</value>
+  </data>
+  <data name="CandidateMenuText" xml:space="preserve">
+    <value>Candidate</value>
+  </data>
+  <data name="CenterGroupMenuText" xml:space="preserve">
+    <value>Center Group</value>
+  </data>
+  <data name="CenterMenuText" xml:space="preserve">
+    <value>Center</value>
+  </data>
+  <data name="CertificateMenuText" xml:space="preserve">
+    <value>Certificate</value>
+  </data>
+  <data name="CertificateVoucherMenuText" xml:space="preserve">
+    <value>Certificate voucher</value>
+  </data>
+  <data name="CertificateVoucherRequestMenuText" xml:space="preserve">
+    <value>Certificate voucher request</value>
+  </data>
+  <data name="Cities" xml:space="preserve">
+    <value>Cities</value>
+  </data>
+  <data name="CityMenuText" xml:space="preserve">
+    <value>City</value>
+  </data>
+  <data name="Code" xml:space="preserve">
+    <value>Code</value>
+  </data>
+  <data name="ContactNumber" xml:space="preserve">
+    <value>Contact number</value>
+  </data>
+  <data name="Control" xml:space="preserve">
+    <value>Control</value>
+  </data>
+  <data name="DashBoardAdminCertificateVoucherRequestTitle" xml:space="preserve">
+    <value>Exclusive voucher requests</value>
+  </data>
+  <data name="DashBoardExclusiveBookedSessionTitle" xml:space="preserve">
+    <value>Booked sessions</value>
+  </data>
+  <data name="DashBoardCertificateVoucherRequestTitle" xml:space="preserve">
+    <value>Request status</value>
+  </data>
+  <data name="DescriptionAR" xml:space="preserve">
+    <value>Description AR</value>
+  </data>
+  <data name="DescriptionEN" xml:space="preserve">
+    <value>Description EN</value>
+  </data>
+  <data name="Email" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="ErrorAddEntityMessage" xml:space="preserve">
+    <value>Error while adding [Entity]. [Details]</value>
+  </data>
+  <data name="ErrorUpdateEntityMessage" xml:space="preserve">
+    <value>Error while updating [Entity]. [Details]</value>
+  </data>
+  <data name="ExclusiveMenuText" xml:space="preserve">
+    <value>Exclusive</value>
+  </data>
+  <data name="IsActive" xml:space="preserve">
+    <value>Is Active</value>
+  </data>
+  <data name="PerformanceCriteria" xml:space="preserve">
+    <value>PerformanceCriteria</value>
+  </data>
+  <data name="PerformanceCriteriaMenuText" xml:space="preserve">
+    <value>PerformanceCriteria</value>
+  </data>
+  <data name="MandatoryErrorMessage" xml:space="preserve">
+    <value>You can't leave this empty.</value>
+  </data>
+  <data name="Module" xml:space="preserve">
+    <value>Module</value>
+  </data>
+  <data name="ModuleMenuText" xml:space="preserve">
+    <value>Module</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="NameAR" xml:space="preserve">
+    <value>Name AR</value>
+  </data>
+  <data name="NameEN" xml:space="preserve">
+    <value>Name EN</value>
+  </data>
+  <data name="OptionAR" xml:space="preserve">
+    <value>Option AR</value>
+  </data>
+  <data name="OptionEN" xml:space="preserve">
+    <value>Option EN</value>
+  </data>
+  <data name="Parameters" xml:space="preserve">
+    <value>Parameters</value>
+  </data>
+  <data name="ProgramMenuText" xml:space="preserve">
+    <value>Program</value>
+  </data>
+  <data name="QuestionMenuText" xml:space="preserve">
+    <value>Multiple choice question</value>
+  </data>
+  <data name="ResourceMenuText" xml:space="preserve">
+    <value>Resource</value>
+  </data>
+  <data name="SectorMenuText" xml:space="preserve">
+    <value>Sector</value>
+  </data>
+  <data name="Sectors" xml:space="preserve">
+    <value>Sectors</value>
+  </data>
+  <data name="SessionMenuText" xml:space="preserve">
+    <value>Session</value>
+  </data>
+  <data name="SuccessAddEntityMessage" xml:space="preserve">
+    <value>&lt;strong&gt;Added&lt;/strong&gt;&lt;br/&gt;[Entity] added successfully.</value>
+  </data>
+  <data name="SuccessUpdateEntityMessage" xml:space="preserve">
+    <value>&lt;strong&gt;Updated&lt;/strong&gt;&lt;br/&gt;[Entity] updated successfully.</value>
+  </data>
+  <data name="TabAccount" xml:space="preserve">
+    <value>spanAccnt</value>
+  </data>
+  <data name="TabAccountManagement" xml:space="preserve">
+    <value>spanAccount</value>
+  </data>
+  <data name="TabProgramManagement" xml:space="preserve">
+    <value>spanProgram</value>
+  </data>
+  <data name="TabQuestionManagement" xml:space="preserve">
+    <value>spanQuestion</value>
+  </data>
+  <data name="TabSessionManagement" xml:space="preserve">
+    <value>spanSession</value>
+  </data>
+  <data name="TabVoucherManagement" xml:space="preserve">
+    <value>spanVoucher</value>
+  </data>
+  <data name="TemplateQuestionMenuText" xml:space="preserve">
+    <value>Question template</value>
+  </data>
+  <data name="TemplateUserMenuText" xml:space="preserve">
+    <value>Users</value>
+  </data>
+  <data name="TextAR" xml:space="preserve">
+    <value>Text AR</value>
+  </data>
+  <data name="TextEN" xml:space="preserve">
+    <value>Text EN</value>
+  </data>
+  <data name="Outcome" xml:space="preserve">
+    <value>Outcome</value>
+  </data>
+  <data name="OutcomeMenuText" xml:space="preserve">
+    <value>Outcome</value>
+  </data>
+  <data name="UpdatedBy" xml:space="preserve">
+    <value>Updated by</value>
+  </data>
+  <data name="SessionVoucherMenuText" xml:space="preserve">
+    <value>Session voucher</value>
+  </data>
+  <data name="SessionVoucherRequestMenuText" xml:space="preserve">
+    <value>Session voucher request</value>
+  </data>
+  <data name="DashBoardCenterCertificateVoucherRequestTitle" xml:space="preserve">
+    <value>Certificate voucher requests</value>
+  </data>
+  <data name="DashBoardCenterSessionVoucherRequestTitle" xml:space="preserve">
+    <value>Session voucher requests</value>
+  </data>
+  <data name="DashBoardExclusiveSessionVoucherRequestTitle" xml:space="preserve">
+    <value>Session voucher requests</value>
+  </data>
+  <data name="TemplateChangePasswordMenuText" xml:space="preserve">
+    <value>Change password</value>
+  </data>
+  <data name="OrderAcknowlegementMailCopyTo" xml:space="preserve">
+    <value />
+  </data>
+</root>

@@ -1,0 +1,5 @@
+H:\Creyeto\Cartoonkart\CartoonKart.com\CK.Presentation.Website\bin\CK.DataAccess.SQLDataProvider.dll
+H:\Creyeto\Cartoonkart\CartoonKart.com\CK.Presentation.Website\bin\CK.DataAccess.SQLDataProvider.pdb
+H:\Creyeto\Cartoonkart\CartoonKart.com\CK.DataAccess.SQLDataProvider\obj\Debug\CK.SQLDataProvider.csprojResolveAssemblyReference.cache
+H:\Creyeto\Cartoonkart\CartoonKart.com\CK.DataAccess.SQLDataProvider\obj\Debug\CK.DataAccess.SQLDataProvider.dll
+H:\Creyeto\Cartoonkart\CartoonKart.com\CK.DataAccess.SQLDataProvider\obj\Debug\CK.DataAccess.SQLDataProvider.pdb

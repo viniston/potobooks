@@ -1,0 +1,415 @@
+﻿.home-login-container {
+    color: #666;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #fff;
+    background-color: #eee;
+    border-radius: 6px;
+    border: 1px solid #fff;
+    padding: 15px;
+    width: 400px;
+    margin-top: 150px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.home-login-label {
+    color: #FFFFFF;
+}
+
+.home-login-title {
+    margin-top: 0;
+}
+
+
+.login-header {
+    background-color: #FFFFFF;
+    border: none;
+    font-family: "Open Sans", "Helvetica Neue", Arial, sans-serif;
+    font-weight: bold;
+}
+
+    .login-header .login-area {
+        float: right;
+        width: 350px;
+    }
+
+    .login-header .panel-group {
+        position: fixed;
+        width: 350px;
+        margin-top: 15px;
+    }
+
+    .login-header .panel-heading {
+        background-color: #FFFFFF !important;
+        padding: 5px 15px;
+    }
+
+    .login-header .panel-title a {
+        display: block;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        color: #2C2C2C !important;
+        font-size: 12px;
+        font-weight: bold;
+    }
+
+    .login-header .panel-body {
+        border-top: 0 !important;
+    }
+
+    .login-header .login-modal-footer {
+        padding: 10px 0 !important;
+    }
+
+    .login-header .login-view .form-control,
+    .login-header .forgot-password-view .form-control {
+        color: #FFFFFF;
+        background-color: #AFB8BD;
+        font-size: 12px;
+        height: 30px;
+        border: 0;
+        padding-top: 5px;
+    }
+
+    .login-header p {
+        font-weight: normal;
+        width: 95px;
+        margin-left: 20px;
+    }
+
+    .login-header .navbar-brand {
+        float: left;
+        margin-left: 20px;
+        padding: 8px 0;
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .login-header .navbar-tagline {
+        float: left;
+        margin-top: 10px;
+        font-size: 12px;
+        font-weight: normal;
+        width: 120px;
+        margin-left: 20px;
+    }
+
+    .login-header .login-view a,
+    .login-header .tc-view a,
+    .login-header .forgot-password-view a {
+        font-size: 14px !important;
+        font-weight: normal !important;
+    }
+
+.support-number {
+    display: block;
+    margin: 5px 20px 0 0 !important;
+    font-size: 10px;
+    font-weight: bold !important;
+    text-transform: uppercase;
+    text-align: right;
+    width: auto !important;
+    color: #AFB8BD;
+}
+
+.login-footer-nav p {
+    color: #858C8E;
+    text-align: center;
+    font-size: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    width: 550px;
+    line-height: 1.25;
+}
+
+.login-footer-nav.row {
+    margin-left: 0;
+    margin-right: 0;
+    background-color: #FFFFFF;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.login-banner {
+    display: block;
+    margin: 0 auto 20px auto;
+}
+
+.login-footer-wrapper {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    min-width: 970px;
+    height: 80px;
+    color: #FFFFFF;
+}
+
+    .login-footer-wrapper.larger {
+        height: 80px;
+        padding-top: 22px;
+    }
+
+.login-footer-copyright {
+    padding-right: 20px;
+    padding-left: 20px;
+    line-height: 30px;
+    background-color: #2C2C2C;
+}
+
+    .login-footer-copyright ul {
+        margin-left: auto;
+        margin-right: auto;
+        width: 25%;
+        margin-bottom: 0;
+    }
+
+        .login-footer-copyright ul li {
+            display: inline;
+            font-size: 8px;
+            padding: 0 10px;
+        }
+
+            .login-footer-copyright ul li a {
+                color: #AFB8BD;
+                text-transform: uppercase;
+            }
+
+.login-carousel .carousel-inner {
+    background-color: rgba(50, 50, 50, 0.6);
+    color: #FFFFFF;
+    border-radius: 15px;
+}
+
+    .login-carousel .carousel-inner .item {
+        padding: 0 30px 30px 30px;
+        max-height: 50vh;
+        overflow-y: auto;
+    }
+
+        .login-carousel .carousel-inner .item a {
+            color: #FFFFFF;
+        }
+
+            .login-carousel .carousel-inner .item a:hover {
+                text-decoration: underline;
+            }
+
+.login-carousel .carousel-control {
+    padding-top: 50px;
+    top: 60px;
+    opacity: 1;
+    width: 10%;
+}
+
+    .login-carousel .carousel-control.right {
+        background-image: none;
+        right: -15%;
+    }
+
+    .login-carousel .carousel-control.left {
+        background-image: none;
+        left: -15%;
+    }
+
+#carousel-home {
+    margin-top: 145px;
+    width: 100%;
+}
+
+.carousel-nav {
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 20px;
+    background-color: rgba(50, 50, 50, 0.6);
+}
+
+    .carousel-nav ul {
+        margin-top: 10px;
+    }
+
+        .carousel-nav ul li {
+            display: inline;
+            margin-right: 30px;
+        }
+
+            .carousel-nav ul li a {
+                color: #FFFFFF;
+                text-transform: uppercase;
+            }
+
+.login-header .login-view .form-control::-webkit-input-placeholder {
+    color: #FFFFFF;
+    font-size: 12px;
+}
+
+.login-header .login-view .form-control::-moz-placeholder {
+    color: #FFFFFF;
+    font-size: 12px;
+}
+
+.login-header .login-view .form-control:-moz-placeholder {
+    color: #FFFFFF;
+    font-size: 12px;
+}
+
+.login-header .login-view .form-control:-ms-input-placeholder {
+    color: #FFFFFF;
+    font-size: 12px;
+}
+
+.login-header .forgot-password-view .form-control::-webkit-input-placeholder {
+    color: #FFFFFF;
+    font-size: 12px;
+}
+
+.login-header .forgot-password-view .form-control::-moz-placeholder {
+    color: #FFFFFF;
+    font-size: 12px;
+}
+
+.login-header .forgot-password-view .form-control:-moz-placeholder {
+    color: #FFFFFF;
+    font-size: 12px;
+}
+
+.login-header .forgot-password-view .form-control:-ms-input-placeholder {
+    color: #FFFFFF;
+    font-size: 12px;
+}
+
+.login-view .validation-error,
+.login-view .forgot-password-view .validation-error {
+    font-size: 10px;
+}
+
+.login-view .btn-login,
+.login-view .forgot-password-view .btn-forgot-password {
+    font-size: 14px;
+}
+
+.login-body-content .login-tc-well {
+    padding: 9px;
+}
+
+    .login-body-content .login-tc-well p {
+        width: auto;
+    }
+
+.login-body-content .login-form-label {
+    color: #4D4D4D;
+}
+
+.login-modal-footer .tc-view .btn-continue {
+    margin-bottom: 10px;
+}
+
+
+
+
+/*Forgot Password*/
+/*Reset Password*/
+.login-modal-dialog {
+    /*width: 600px !important;*/
+    margin-top: 40px;
+}
+
+.greeting-text {
+    text-align: right;
+    padding-top: 52px;
+}
+
+.padding20-bottom {
+    padding-bottom: 20px;
+}
+
+.margin10-top {
+    margin-top: 10px;
+}
+
+#form-content .login-body-content {
+    text-align: left;
+    color: #F8FAFA;
+}
+
+.form-area-content {
+    text-align: left;
+    width: 100%;
+    float: left;
+}
+
+.form-area-content-2 {
+    text-align: left;
+    width: 100%;
+    float: left;
+}
+
+.success-message-icon {
+    color: #63B963;
+    padding: 5px 0px 0px 0px;
+}
+
+.error-message-icon {
+    color: #D95C59;
+    padding: 5px 0px 0px 0px;
+}
+
+.icon-size {
+    font-size: 18px;
+}
+
+.icon-text {
+    margin: 2px;
+}
+
+.text-align-left {
+    text-align: left;
+}
+
+.align-left {
+    float: left;
+}
+
+.label-text-size {
+    font-size: 14px;
+}
+
+.submit-button-area {
+    text-align: left;
+    padding-left: 10px;
+}
+
+.login-accept-choice {
+    padding: 0px !important;
+}
+
+.print-area {
+    text-align: right;
+    float: right;
+    margin-top: 10px;
+}
+
+.reset-back-link {
+    display: block;
+    margin-top: 10px;
+}
+
+.session-login .close {
+    display: none;
+}
+
+.session-modal {
+    z-index: 9999;
+    /* top-level above all backdrops. */
+}
+
+.forgot-password-link,
+.read-terms-and-conditions-link {
+    padding-top: 10px;
+    display: block;
+}
+/*Reset Password*/

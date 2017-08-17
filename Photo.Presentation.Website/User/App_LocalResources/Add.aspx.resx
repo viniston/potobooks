@@ -1,0 +1,219 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="btnSave.Text" xml:space="preserve">
+    <value>Save user</value>
+  </data>
+  <data name="litHeading.Text" xml:space="preserve">
+    <value>Add a user to [OrganizationName]</value>
+  </data>
+  <data name="MessageUserCreatedSuccessfully" xml:space="preserve">
+    <value>&lt;em&gt;User created successfully&lt;/em&gt;[WelcomeEmailDetails]</value>
+  </data>
+  <data name="litPassword.Text" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="litEmail.Text" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="EmailErrorMessage" xml:space="preserve">
+    <value>&lt;p&gt;Please provide a valid email address.&lt;/p&gt;</value>
+  </data>
+  <data name="UserAlreadyExists" xml:space="preserve">
+    <value>&lt;p&gt;A user already exists for this email address, only one account per email address is allowed.&lt;/p&gt;</value>
+  </data>
+  <data name="RolesErrorMessage" xml:space="preserve">
+    <value>&lt;p&gt;Please select at least one role from the list.&lt;/p&gt;</value>
+  </data>
+  <data name="litFirstName.Text" xml:space="preserve">
+    <value>First name</value>
+  </data>
+  <data name="litLastName.Text" xml:space="preserve">
+    <value>Last name</value>
+  </data>
+  <data name="FirstNameErrorMessage" xml:space="preserve">
+    <value>&lt;p&gt;Please fill in a valid first name.&lt;/p&gt;</value>
+  </data>
+  <data name="litOrganization.Text" xml:space="preserve">
+    <value>Organization</value>
+  </data>
+  <data name="btnCancel.Text" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="litRoles.Text" xml:space="preserve">
+    <value>Roles</value>
+  </data>
+  <data name="MessageUnexpectedError" xml:space="preserve">
+    <value>&lt;em&gt;Unexpected error occured.&lt;/em&gt;User creation failed due to some unexpected errors, please contact your supervisor or relationship manager for assistance.</value>
+  </data>
+  <data name="RoleIDs" xml:space="preserve">
+    <value>1b2a9ee9-e68c-445a-9ad5-0aadbf4dd62b,556b0f8c-998b-4f02-9c8f-3d24b1d491c3,b14d6c77-47e2-4fb0-b448-e7e81a984841,6f8c5aea-a877-40ff-b164-229cfe43a2c4</value>
+  </data>
+  <data name="EmailNotSent" xml:space="preserve">
+    <value>but we were unable to send them a welcome email at this time. Please try sending one more time from this page, if you believe this is an error please contact your supervisor or relationship manager for assistance.</value>
+  </data>
+  <data name="EmailSent" xml:space="preserve">
+    <value>and a welcome email has been sent to the user. It may take up to 5 minutes to be delivered to all its recipients.</value>
+  </data>
+  <data name="ErrorCSSClass" xml:space="preserve">
+    <value>invalid</value>
+  </data>
+  <data name="LastNameErrorMessage" xml:space="preserve">
+    <value>&lt;p&gt;Please fill in a valid last name.&lt;/p&gt;</value>
+  </data>
+  <data name="lbRoles.ToolTip" xml:space="preserve">
+    <value>Hold Ctrl key to select multiple roles</value>
+  </data>
+  <data name="MandatoryCSSClass" xml:space="preserve">
+    <value>mandatory</value>
+  </data>
+  <data name="MissingInformationMessage" xml:space="preserve">
+    <value>&lt;em&gt;Please help us with a little more information&lt;/em&gt; by reviewing the &lt;strong&gt;instructions&lt;/strong&gt; which appear below.</value>
+  </data>
+  <data name="ltlMiddleName.Text" xml:space="preserve">
+    <value>Middle name</value>
+  </data>
+  <data name="ReferenceCodeError" xml:space="preserve">
+    <value>&lt;p&gt;Please fill in a valid and unique reference code.&lt;/p&gt;</value>
+  </data>
+  <data name="litCostCenter.Text" xml:space="preserve">
+    <value>Cost center</value>
+  </data>
+  <data name="litLocationCode.Text" xml:space="preserve">
+    <value>Location code</value>
+  </data>
+  <data name="txtCostCenter.MaxLength" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="txtLocationCode.MaxLength" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="txtReferenceCode.MaxLength" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="ContentDivCssClass" xml:space="preserve">
+    <value>class='noFunction'</value>
+  </data>
+  <data name="hlkBackToOrganization.Text" xml:space="preserve">
+    <value>Back to [Org]</value>
+  </data>
+  <data name="ExcludedRoleIDsForAdministrator" xml:space="preserve">
+    <value>E87CB58C-3F32-4A8B-B856-5AE81DEF2455</value>
+  </data>
+</root>

@@ -1,0 +1,160 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{A14B4111-F2B8-40B5-AE34-89ADC5FF46EF}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Photo.Business</RootNamespace>
+    <AssemblyName>Photo.Business</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\Photo.Presentation.Website\bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\Photo.Presentation.Website\bin\</OutputPath>
+    <DefineConstants>
+    </DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Magick.NET-Q16-x86, Version=7.0.0.0, Culture=neutral, PublicKeyToken=2004825badfa91ec, processorArchitecture=x86">
+      <HintPath>..\packages\Magick.NET-Q16-x86.7.0.6.600\lib\net40\Magick.NET-Q16-x86.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=8.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Photo.Presentation.Website\bin\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DataProvider\DataProvider.cs" />
+    <Compile Include="DataProvider\DataProviderCollection.cs" />
+    <Compile Include="DataProvider\DataProviderConfiguration.cs" />
+    <Compile Include="DataProvider\DataProviderManager.cs" />
+    <Compile Include="Entities\Album\AlbumController.cs" />
+    <Compile Include="Entities\Model\AlbumImageInfo.cs" />
+    <Compile Include="Entities\Model\Albumnfo.cs" />
+    <Compile Include="Entities\Common\ControllerBase.cs" />
+    <Compile Include="Entities\Common\ICBO.cs" />
+    <Compile Include="Entities\Configuration\ConfigurationInfo.cs" />
+    <Compile Include="Entities\Model\ArtistFareController.cs" />
+    <Compile Include="Entities\Model\ArtistFareInfo.cs" />
+    <Compile Include="Entities\Model\ArtistBookingPaymentInfo.cs" />
+    <Compile Include="Entities\Model\AlbumImageInfoController.cs" />
+    <Compile Include="Entities\Model\StatementController.cs" />
+    <Compile Include="Entities\Model\StatementInfo.cs" />
+    <Compile Include="Entities\Model\VoucherCodeController.cs" />
+    <Compile Include="Entities\Model\VoucherCodeInfo.cs" />
+    <Compile Include="Entities\Model\ProductCategoryController.cs" />
+    <Compile Include="Entities\Model\ProductCategoryInfo.cs" />
+    <Compile Include="Entities\Model\ConversationController.cs" />
+    <Compile Include="Entities\Model\ConversationInfo.cs" />
+    <Compile Include="Entities\Model\ImageController.cs" />
+    <Compile Include="Entities\Model\ArtistController.cs" />
+    <Compile Include="Entities\Model\ImageInfo.cs" />
+    <Compile Include="Entities\Model\DealerController.cs" />
+    <Compile Include="Entities\Model\CategoryController.cs" />
+    <Compile Include="Entities\Model\ArtistInfo.cs" />
+    <Compile Include="Entities\Model\DealerInfo.cs" />
+    <Compile Include="Entities\Model\Enum.cs" />
+    <Compile Include="Entities\Model\ProductInfo.cs" />
+    <Compile Include="Entities\Model\Commomn\MoneyInfo.cs" />
+    <Compile Include="Entities\Model\Configuration.cs" />
+    <Compile Include="Entities\Model\Commomn\Currency\CurrencyController.cs" />
+    <Compile Include="Entities\Model\Commomn\Currency\CurrencyInfo.cs" />
+    <Compile Include="Entities\Model\Commomn\Currency\CurrencyManager.cs" />
+    <Compile Include="Entities\Model\PaymentInfo.cs" />
+    <Compile Include="Entities\Model\PaymentController.cs" />
+    <Compile Include="Entities\Model\BookingController.cs" />
+    <Compile Include="Entities\Model\ProductController.cs" />
+    <Compile Include="Entities\Model\BookingInfo.cs" />
+    <Compile Include="Entities\Model\CategoryInfo.cs" />
+    <Compile Include="Entities\Model\SearchBookingFileInfo.cs" />
+    <Compile Include="Entities\Model\SearchConversationInfo.cs" />
+    <Compile Include="Entities\Security\Enum.cs" />
+    <Compile Include="Entities\Security\Membership\PhotoRoleProvider.cs" />
+    <Compile Include="Entities\Security\Membership\PhotoMembershipProvider.cs" />
+    <Compile Include="Entities\Security\RandomPassword.cs" />
+    <Compile Include="Entities\Security\Role\RoleController.cs" />
+    <Compile Include="Entities\Security\Role\RoleInfo.cs" />
+    <Compile Include="Entities\Security\SecurityManager.cs" />
+    <Compile Include="Entities\Security\UserAction\UserActionController.cs" />
+    <Compile Include="Entities\Security\UserAction\UserActionInfo.cs" />
+    <Compile Include="Entities\Security\User\UserController.cs" />
+    <Compile Include="Entities\Security\User\UserInfo.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Entities\Configuration\ConfigurationController.cs" />
+    <Compile Include="Utilities\Base32\Base32Helper.cs" />
+    <Compile Include="Utilities\Communication\FreshDesk\Enum.cs" />
+    <Compile Include="Utilities\Communication\FreshDesk\FreshdeskHelper.cs" />
+    <Compile Include="Utilities\Communication\FreshDesk\FreshdeskTicket.cs" />
+    <Compile Include="Utilities\EmailHelper\ArtistEmailHelper.cs" />
+    <Compile Include="Utilities\EmailHelper\EmailHelper.cs" />
+    <Compile Include="Utilities\Formatting\FormatHelper.cs" />
+    <Compile Include="Utilities\ImagePreview\ImageThumbnailGenerator.cs" />
+    <Compile Include="Utilities\ObjectSerializer\ObjectSerializer.cs" />
+    <Compile Include="Utilities\Storage\Enum.cs" />
+    <Compile Include="Utilities\Storage\RepositoryHelper.cs" />
+    <Compile Include="Utilities\URL\Enum.cs" />
+    <Compile Include="Utilities\URL\URLHelper.cs" />
+    <Compile Include="Utilities\ValidationHelper\ValidationHelper.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Photo.Resources\Photo.Resources.csproj">
+      <Project>{85a82add-825c-4c63-91bf-0712d6d16a94}</Project>
+      <Name>Photo.Resources</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Photo.Utility\Photo.Utility.csproj">
+      <Project>{899fdc1a-e0f3-44fc-a1ca-865ee366a973}</Project>
+      <Name>Photo.Utility</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="..\packages\Magick.NET-Q16-x86.7.0.6.600\build\net40\Magick.NET-Q16-x86.targets" Condition="Exists('..\packages\Magick.NET-Q16-x86.7.0.6.600\build\net40\Magick.NET-Q16-x86.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Magick.NET-Q16-x86.7.0.6.600\build\net40\Magick.NET-Q16-x86.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Magick.NET-Q16-x86.7.0.6.600\build\net40\Magick.NET-Q16-x86.targets'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

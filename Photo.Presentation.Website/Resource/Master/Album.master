@@ -1,0 +1,30 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Album.master.cs" Inherits="Resource_Master_Album" %>
+
+<!DOCTYPE html>
+<html class="no-js" lang="">
+
+<head>
+    <title></title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link href="../Resource/Pages/Preview/css/album/album.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800">
+    <link href="../Resource/Pages/Preview/css/album/font-awesome.min.css" rel="stylesheet" />
+    <script src="../Resource/Pages/Preview/js/notify.js"></script>
+    <script src="../Resource/Pages/Preview/js/mustache.min.js"></script>
+</head>
+
+<body class="business">
+
+    <script src="../Resource/Pages/Preview/js/album/responsive-manager.js"></script>
+    <script src="../Resource/Pages/Preview/js/album/mustache.min.js"></script>
+    <script src="../Resource/Pages/Preview/js/album/masonry.pkgd.min.js"></script>
+
+    <form runat="server" id="form1">
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder" runat="server">
+        </asp:ContentPlaceHolder>
+    </form>
+</body>
+
+</html>
+

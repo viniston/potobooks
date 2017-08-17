@@ -1,0 +1,17 @@
+H:\Creyeto\Cartoonkart\Phtobook.com\Photo.Business\obj\Debug\Photo.Business.csprojResolveAssemblyReference.cache
+H:\Creyeto\Cartoonkart\Phtobook.com\Photo.Presentation.Website\bin\Photo.Business.dll
+H:\Creyeto\Cartoonkart\Phtobook.com\Photo.Presentation.Website\bin\Photo.Business.pdb
+H:\Creyeto\Cartoonkart\Phtobook.com\Photo.Business\obj\Debug\Photo.Business.dll
+H:\Creyeto\Cartoonkart\Phtobook.com\Photo.Business\obj\Debug\Photo.Business.pdb
+D:\vini-personal-files\CartookKart\Source-20170616T182104Z-001\Source\Phtobook.com\Phtobook.com\Photo.Presentation.Website\bin\Magick.NET-Q16-x86.Native.dll
+D:\vini-personal-files\CartookKart\Source-20170616T182104Z-001\Source\Phtobook.com\Phtobook.com\Photo.Presentation.Website\bin\Photo.Business.dll
+D:\vini-personal-files\CartookKart\Source-20170616T182104Z-001\Source\Phtobook.com\Phtobook.com\Photo.Presentation.Website\bin\Photo.Business.pdb
+D:\vini-personal-files\CartookKart\Source-20170616T182104Z-001\Source\Phtobook.com\Phtobook.com\Photo.Business\obj\Debug\Photo.Business.csprojResolveAssemblyReference.cache
+D:\vini-personal-files\CartookKart\Source-20170616T182104Z-001\Source\Phtobook.com\Phtobook.com\Photo.Business\obj\Debug\Photo.Business.dll
+D:\vini-personal-files\CartookKart\Source-20170616T182104Z-001\Source\Phtobook.com\Phtobook.com\Photo.Business\obj\Debug\Photo.Business.pdb
+H:\Creyeto\Phtobook.comV1\Phtobook.com\Phtobook.com\Photo.Presentation.Website\bin\Magick.NET-Q16-x86.Native.dll
+H:\Creyeto\Phtobook.comV1\Phtobook.com\Phtobook.com\Photo.Presentation.Website\bin\Photo.Business.dll
+H:\Creyeto\Phtobook.comV1\Phtobook.com\Phtobook.com\Photo.Presentation.Website\bin\Photo.Business.pdb
+H:\Creyeto\Phtobook.comV1\Phtobook.com\Phtobook.com\Photo.Business\obj\Debug\Photo.Business.csprojResolveAssemblyReference.cache
+H:\Creyeto\Phtobook.comV1\Phtobook.com\Phtobook.com\Photo.Business\obj\Debug\Photo.Business.dll
+H:\Creyeto\Phtobook.comV1\Phtobook.com\Phtobook.com\Photo.Business\obj\Debug\Photo.Business.pdb

@@ -1,0 +1,16 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Admin.master.cs" Inherits="Resource.Master.ResourceMastersAdmin" %>
+
+<%@ Register Src="~/Resource/Control/CoreMenu.ascx" TagPrefix="menu" TagName="CoreMenu" %>
+
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head runat="server">
+    <asp:ContentPlaceHolder ID="head" runat="server">
+  </asp:ContentPlaceHolder>
+</head>
+<body>
+  <form runat="server" id="form1">
+   </form>
+</body>
+</html>

@@ -1,0 +1,12 @@
+H:\Creyeto\Cartoonkart\CartoonKart.com\CK.Presentation.Website\bin\CK.Resources.dll
+H:\Creyeto\Cartoonkart\CartoonKart.com\CK.Presentation.Website\bin\CK.Resources.pdb
+H:\Creyeto\Cartoonkart\CartoonKart.com\CK.Resources\obj\Debug\CK.Resources.Email.Email.resources
+H:\Creyeto\Cartoonkart\CartoonKart.com\CK.Resources\obj\Debug\CK.Resources.Link.Link.resources
+H:\Creyeto\Cartoonkart\CartoonKart.com\CK.Resources\obj\Debug\CK.Resources.PageLink.PageLink.resources
+H:\Creyeto\Cartoonkart\CartoonKart.com\CK.Resources\obj\Debug\CK.Resources.RegEx.RegEx.resources
+H:\Creyeto\Cartoonkart\CartoonKart.com\CK.Resources\obj\Debug\CK.Resources.Repository.Repository.resources
+H:\Creyeto\Cartoonkart\CartoonKart.com\CK.Resources\obj\Debug\CK.Resources.Shared.Shared.resources
+H:\Creyeto\Cartoonkart\CartoonKart.com\CK.Resources\obj\Debug\CK.Resources.csproj.GenerateResource.Cache
+H:\Creyeto\Cartoonkart\CartoonKart.com\CK.Resources\obj\Debug\CK.Resources.dll
+H:\Creyeto\Cartoonkart\CartoonKart.com\CK.Resources\obj\Debug\CK.Resources.pdb
+H:\Creyeto\Cartoonkart\CartoonKart.com\CK.Resources\obj\Debug\CK.Resources.csprojResolveAssemblyReference.cache

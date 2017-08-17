@@ -1,0 +1,17 @@
+H:\Creyeto\Cartoonkart\Phtobook.com\Photo.Presentation.Website\bin\Photo.DataAccess.SQLDataProvider.dll
+H:\Creyeto\Cartoonkart\Phtobook.com\Photo.Presentation.Website\bin\Photo.DataAccess.SQLDataProvider.pdb
+H:\Creyeto\Cartoonkart\Phtobook.com\Photo.DataAccess.SQLDataProvider\obj\Debug\Photo.SQLDataProvider.csprojResolveAssemblyReference.cache
+H:\Creyeto\Cartoonkart\Phtobook.com\Photo.DataAccess.SQLDataProvider\obj\Debug\Photo.DataAccess.SQLDataProvider.dll
+H:\Creyeto\Cartoonkart\Phtobook.com\Photo.DataAccess.SQLDataProvider\obj\Debug\Photo.DataAccess.SQLDataProvider.pdb
+D:\vini-personal-files\CartookKart\Source-20170616T182104Z-001\Source\Phtobook.com\Phtobook.com\Photo.Presentation.Website\bin\Magick.NET-Q16-x86.Native.dll
+D:\vini-personal-files\CartookKart\Source-20170616T182104Z-001\Source\Phtobook.com\Phtobook.com\Photo.Presentation.Website\bin\Photo.DataAccess.SQLDataProvider.dll
+D:\vini-personal-files\CartookKart\Source-20170616T182104Z-001\Source\Phtobook.com\Phtobook.com\Photo.Presentation.Website\bin\Photo.DataAccess.SQLDataProvider.pdb
+D:\vini-personal-files\CartookKart\Source-20170616T182104Z-001\Source\Phtobook.com\Phtobook.com\Photo.DataAccess.SQLDataProvider\obj\Debug\Photo.SQLDataProvider.csprojResolveAssemblyReference.cache
+D:\vini-personal-files\CartookKart\Source-20170616T182104Z-001\Source\Phtobook.com\Phtobook.com\Photo.DataAccess.SQLDataProvider\obj\Debug\Photo.DataAccess.SQLDataProvider.dll
+D:\vini-personal-files\CartookKart\Source-20170616T182104Z-001\Source\Phtobook.com\Phtobook.com\Photo.DataAccess.SQLDataProvider\obj\Debug\Photo.DataAccess.SQLDataProvider.pdb
+H:\Creyeto\Phtobook.comV1\Phtobook.com\Phtobook.com\Photo.Presentation.Website\bin\Magick.NET-Q16-x86.Native.dll
+H:\Creyeto\Phtobook.comV1\Phtobook.com\Phtobook.com\Photo.Presentation.Website\bin\Photo.DataAccess.SQLDataProvider.dll
+H:\Creyeto\Phtobook.comV1\Phtobook.com\Phtobook.com\Photo.Presentation.Website\bin\Photo.DataAccess.SQLDataProvider.pdb
+H:\Creyeto\Phtobook.comV1\Phtobook.com\Phtobook.com\Photo.DataAccess.SQLDataProvider\obj\Debug\Photo.SQLDataProvider.csprojResolveAssemblyReference.cache
+H:\Creyeto\Phtobook.comV1\Phtobook.com\Phtobook.com\Photo.DataAccess.SQLDataProvider\obj\Debug\Photo.DataAccess.SQLDataProvider.dll
+H:\Creyeto\Phtobook.comV1\Phtobook.com\Phtobook.com\Photo.DataAccess.SQLDataProvider\obj\Debug\Photo.DataAccess.SQLDataProvider.pdb

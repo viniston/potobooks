@@ -1,0 +1,66 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "http://127.0.0.50", "http://127.0.0.50", "{E23B0DB7-9C73-4056-8ABF-B1036DEC9E60}"
+	ProjectSection(WebsiteProperties) = preProject
+		UseIISExpress = "false"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.6.1"
+		ProjectReferences = "{a14b4111-f2b8-40b5-ae34-89adc5ff46ef}|Photo.Business.dll;{85A82ADD-825C-4C63-91BF-0712D6D16A94}|Photo.Resources.dll;{899FDC1A-E0F3-44FC-A1CA-865EE366A973}|Photo.Utility.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/localhost"
+		Debug.AspNetCompiler.PhysicalPath = "Photo.Presentation.Website\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost"
+		Release.AspNetCompiler.PhysicalPath = "Photo.Presentation.Website\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "Photo.Presentation.Website\"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Photo.Business", "Photo.Business\Photo.Business.csproj", "{A14B4111-F2B8-40B5-AE34-89ADC5FF46EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Photo.SQLDataProvider", "Photo.DataAccess.SQLDataProvider\Photo.SQLDataProvider.csproj", "{5773CA4A-140B-40E0-8661-7E7F45124ECD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Photo.Resources", "Photo.Resources\Photo.Resources.csproj", "{85A82ADD-825C-4C63-91BF-0712D6D16A94}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Photo.Utility", "Photo.Utility\Photo.Utility.csproj", "{899FDC1A-E0F3-44FC-A1CA-865EE366A973}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E23B0DB7-9C73-4056-8ABF-B1036DEC9E60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E23B0DB7-9C73-4056-8ABF-B1036DEC9E60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E23B0DB7-9C73-4056-8ABF-B1036DEC9E60}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{E23B0DB7-9C73-4056-8ABF-B1036DEC9E60}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{A14B4111-F2B8-40B5-AE34-89ADC5FF46EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A14B4111-F2B8-40B5-AE34-89ADC5FF46EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A14B4111-F2B8-40B5-AE34-89ADC5FF46EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A14B4111-F2B8-40B5-AE34-89ADC5FF46EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5773CA4A-140B-40E0-8661-7E7F45124ECD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5773CA4A-140B-40E0-8661-7E7F45124ECD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5773CA4A-140B-40E0-8661-7E7F45124ECD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5773CA4A-140B-40E0-8661-7E7F45124ECD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{85A82ADD-825C-4C63-91BF-0712D6D16A94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{85A82ADD-825C-4C63-91BF-0712D6D16A94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{85A82ADD-825C-4C63-91BF-0712D6D16A94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{85A82ADD-825C-4C63-91BF-0712D6D16A94}.Release|Any CPU.Build.0 = Release|Any CPU
+		{899FDC1A-E0F3-44FC-A1CA-865EE366A973}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{899FDC1A-E0F3-44FC-A1CA-865EE366A973}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{899FDC1A-E0F3-44FC-A1CA-865EE366A973}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{899FDC1A-E0F3-44FC-A1CA-865EE366A973}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
